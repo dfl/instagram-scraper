@@ -1,9 +1,10 @@
-# Example scraper for Instagram images
+# Simple scraper for Instagram images
 
 by David Lowenfels
 
 installation: `bundle install`
-usage: `bundle exec ruby scrape_insta.rb > urls.txt`
+fetch urls: `bundle exec ruby scrape_insta.rb USERNAME > urls.txt`
+download files: `bundle exec ruby download_files.rb urls.txt`
 
 ## Disclaimer:
 
