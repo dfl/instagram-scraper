@@ -98,10 +98,6 @@ def parse_post(node)
     timestamp: node["taken_at_timestamp"]
   }
 
-  # file = File.join("output", "#{post[:timestamp]}.jpg")
-  # File.write(file, URI.open(post[:display_url]).read) unless File.exist?(file)
-
   puts post[:display_url]
-  # puts post[:caption]
   post
 end
